@@ -14,4 +14,4 @@ The code also covers various types of local loss functions, which fall under fou
 
 The method also offers interpretability on variable importance and underlying model selection, making it a "white-box" machine learning method, as opposed to black-box neural networks, etc. This opens up a suite of cool interpretability applications, from general indications of variable importance to time-varying interpretations and case studies of important events. The below provides an example of an illustration I created that demonstrates the interpretability benefits of Adaptive Learning models.
 
-
+![Uploading Interpretation.png…]()
