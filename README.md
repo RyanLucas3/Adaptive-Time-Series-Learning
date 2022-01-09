@@ -12,4 +12,6 @@ The code also covers various types of local loss functions, which fall under fou
   3. Model-Comparison. When a best model is suspected ex-ante, one can choose to evaluate and penalise the loss of other models relative to this model.
   4. Huber Loss. Huber loss is motivated by outlier detection. When looking at previous loss values, one can check whether a model had particularly bad, outlying forecasts. These are penalised more heavily under this loss function, and hence we reward models for stability.
 
-The method also offers interpretability on variable importance and underlying model selection, making it a "white-box" machine learning method, as opposed to black-box neural networks, etc. This opens up a suite of cool interpretability applications, from general indications of variable importance to time-varying interpretations and case studies of important events.
+The method also offers interpretability on variable importance and underlying model selection, making it a "white-box" machine learning method, as opposed to black-box neural networks, etc. This opens up a suite of cool interpretability applications, from general indications of variable importance to time-varying interpretations and case studies of important events. The below provides an example of an illustration I created that demonstrates the interpretability benefits of Adaptive Learning models.
+
+
