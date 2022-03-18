@@ -615,11 +615,11 @@ def adaptive_learning(k,
 
     # Step 1 (b): Define the training index.
     T_train = np.arange(W_max + 22 + P_max,
-                        T_max - 1650 + 1)
+                        T_max - 22 + 1)
 
     # Step 1 (c): Define the testing index.
     T_test = np.arange(W_max + 100 + 44 + P_max,
-                       T_max - 1700 + 1)
+                       T_max - 22 + 1)
 
     forecast_errors = create_H_tilda_dict(functional_sets)
     error_p_norms = create_H_tilda_dict(functional_sets)
