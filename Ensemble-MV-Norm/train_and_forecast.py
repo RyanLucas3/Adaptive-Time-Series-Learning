@@ -246,7 +246,7 @@ def forecasting(k,
     T_max = len(data_and_time) - 1
     W_max = max(window_sizes)
     P_max = max(ar_orders)
-    T_train = np.arange(W_max + 19 + P_max, T_max - 22 + 1)
+    T_train = np.arange(W_max + 22 + P_max, T_max - 22 + 1)
     # Logistics
     # Creation of H_tilda
 
